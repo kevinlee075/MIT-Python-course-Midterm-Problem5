@@ -16,4 +16,7 @@ def uniqueValues(aDict):
     '''
     aDict: a dictionary
     '''
+    new_list = []
+    new_dict = {}
+    
     
