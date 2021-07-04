@@ -18,5 +18,14 @@ def uniqueValues(aDict):
     '''
     new_list = []
     new_dict = {}
+    for item in aDict.keys():
+        if aDict[item] in new_dict:
+            new_dict[aDict[item]] += 1
+        elif aDict[item] not in new_dict:
+            new_dict[aDict[item]] = 1
+    for count in new_dict.keys():
+        if 
+        
     
+        
     
