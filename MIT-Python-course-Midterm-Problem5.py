@@ -23,8 +23,14 @@ def uniqueValues(aDict):
             new_dict[aDict[item]] += 1
         elif aDict[item] not in new_dict:
             new_dict[aDict[item]] = 1
-    for count in new_dict.keys():
-        if 
+    for aDict_value in new_dict.keys():
+        if new_dict[aDict_value] == 1:
+            for unique in aDict.keys():
+                if aDict[unique] == aDict_value:
+                    new_list.append(unique)
+    new_list.sort()
+    return new_list
+                
         
     
         
